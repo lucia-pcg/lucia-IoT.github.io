@@ -4,61 +4,52 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Estilos Inline</title>
+    <title>Externa</title>
+    <link rel="stylesheet" href="estilos.css">
 </head>
 
-<body style="background-color:azure;">
-    <h1 style="text-align: center; font-family: Georgia, serif">Richard Gere</h1>
-    <h2 style="text-align: center">Actor estadounidense y activista</h2>
+<body>
+    <!-- ENLACE ARRIBA A LA DERECHA -->
+    <a style="float: right; margin: 10px; color: brown; text-decoration: none;"
+       onmouseover="this.style.color='black';" 
+       onmouseout="this.style.color='brown';"
+       href="index.html" target="_blank">Mi primera página web</a>
+
+    <h1>Richard Gere</h1>
+    <h2>Actor estadounidense y activista</h2>
     <br>
-    <p style="font-family: 'Times New Roman'; font-size: 18px; padding-left: 50px; padding-right: 50px;">
-        Richard Gere es un actor estadounidense nacido en 1949. Ha participado en 
-        muchas películas muy conocidas como Pretty Woman y Siempre a tu lado. Además de ser talentoso, 
-        también es una persona muy comprometida con ayudar a los demás, especialmente en 
-        temas humanitarios y de defensa de los derechos humanos. Me inspira porque ha sabido 
-        usar su fama para hacer el bien y porque transmite mucha paz y sensibilidad en su 
+
+    <p>Richard Gere es un actor estadounidense nacido en 1949. Ha participado en
+        muchas películas muy conocidas como Pretty Woman y Siempre a tu lado. Además de ser talentoso,
+        también es una persona muy comprometida con ayudar a los demás, especialmente en
+        temas humanitarios y de defensa de los derechos humanos. Me inspira porque ha sabido
+        usar su fama para hacer el bien y porque transmite mucha paz y sensibilidad en su
         forma de actuar y de hablar.</p>
+
     <br>
+    <img src="img/richard_gere.jpg" alt="Richard Gere" class="img1">
+    <img src="img/richard_gere2.jpeg" alt="Richard Gere" class="img2">
+    <img src="img/richard_gere3.jpg" alt="Richard Gere" class="img3">
 
-    <img src="img/richard_gere.jpg" alt="Richard Gere" style="padding-left: 110px; height:200px;">
-    <img src="img/richard_gere2.jpeg" alt="Richard Gere" style="padding-left: 20px; margin-right: auto; height:200px;">
-    <img src="img/richard_gere3.jpg" alt="Richard Gere" style="padding-left: 20px; margin-right: auto; height:200px;">
-   
-    <br> <br>
-    <center> <a style="text-align: center; padding-left: 50px; color: brown; text-decoration: none;" onmouseover="this.style.color='black';" onmouseout="this.style.color='brown';" href="https://www.imdb.com/es/name/nm0000152/" target="_blank">Más información (IMDb)</a> </center>
-    <br> <br>
+    <br><br>
+    <center><a href="https://www.imdb.com/es/name/nm0000152/" target="_blank">Más información (IMDb)</a></center>
+    <br><br>
 
-    <h3 style="font-family: Verdana, Geneva, sans-serif; padding-left: 50px;"> Richard Gere, más activista que estrella de cine...</h3>
-    <iframe width="560" height="315" style="padding-left: 50px;"
+    <h3>Richard Gere, más activista que estrella de cine...</h3>
+
+    <iframe width="560" height="315"
         src="https://youtube.com/embed/O0Pg50PwyVA?si=TmeU2jPMHBZSABM1"
-        frameborder="0"
-        allowfullscreen>
-    </iframe>
-    <iframe width="560" height="315" style="padding-left: 30px;"
-        src="https://youtube.com/embed/Ikw8U8gFaIA?si=RLMaZ7YtQyR40AKw"
-        frameborder="0"
-        allowfullscreen>
-    </iframe>
+        frameborder="0" allowfullscreen></iframe>
 
-    <center> 
-    <button style="margin: 30px auto; padding: 10px 20px; background-color: brown; color: white; border: none; border-radius: 5px; cursor: pointer;"
-        onmouseover="this.style.backgroundColor='black';"
-        onmouseout="this.style.backgroundColor='brown';" 
-        onclick="window.location.href='inline.html'">
-        ¡Ver versión inline!
-    </button>
-    <button style="margin: 20px auto; padding: 10px 20px; background-color: brown; color: white; border: none; border-radius: 5px; cursor: pointer;"
-        onmouseover="this.style.backgroundColor='black';"
-        onmouseout="this.style.backgroundColor='brown';"
-        onclick="window.location.href='interna.html'">
-        ¡Ver versión interna!
-    </button>
-    <button style="margin: 20px auto; padding: 10px 20px; background-color: brown; color: white; border: none; border-radius: 5px; cursor: pointer;"
-        onmouseover="this.style.backgroundColor='black';"
-        onmouseout="this.style.backgroundColor='brown';"
-        onclick="window.location.href='externa.html'">
-        ¡Ver versión externa!
-    </button> </center> 
+    <iframe width="560" height="315" class="iframe2"
+        src="https://youtube.com/embed/Ikw8U8gFaIA?si=RLMaZ7YtQyR40AKw"
+        frameborder="0" allowfullscreen></iframe>
+
+    <center>
+        <button onclick="window.location.href='inline.html'">¡Ver versión inline!</button>
+        <button onclick="window.location.href='interna.html'">¡Ver versión interna!</button>
+        <button onclick="window.location.href='externa.html'">¡Ver versión externa!</button>
+    </center>
 </body>
 
 </html>
