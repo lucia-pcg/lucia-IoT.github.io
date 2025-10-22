@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Estilos Internos</title>
+    <style>
+        body {
+            background-color: azure;
+        }
+
+        h1 {
+            text-align: center;
+            font-family: Georgia, serif;
+        }
+
+        h2 {
+            text-align: center;
+        }
+
+        p {
+            font-family: 'Times New Roman', serif;
+            font-size: 18px;
+            padding-left: 50px;
+            padding-right: 50px;
+        }
+
+        img {
+            height: 200px;
+            margin-right: auto;
+        }
+
+        .img1 {
+            padding-left: 110px;
+        }
+
+        .img2, .img3 {
+            padding-left: 20px;
+        }
+
+        a {
+            text-align: center;
+            padding-left: 50px;
+            color: brown;
+            text-decoration: none;
+        }
+
+        a:hover {
+            color: black;
+        }
+
+        h3 {
+            font-family: Verdana, Geneva, sans-serif;
+            padding-left: 50px;
+        }
+
+        iframe {
+            padding-left: 50px;
+        }
+
+        .iframe2 {
+            padding-left: 30px;
+        }
+
+        button {
+            margin: 20px auto;
+            padding: 10px 20px;
+            background-color: brown;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: black;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Richard Gere</h1>
+    <h2>Actor estadounidense y activista</h2>
+    <br>
+
+    <p>Richard Gere es un actor estadounidense nacido en 1949. Ha participado en
+        muchas películas muy conocidas como Pretty Woman y Siempre a tu lado. Además de ser talentoso,
+        también es una persona muy comprometida con ayudar a los demás, especialmente en
+        temas humanitarios y de defensa de los derechos humanos. Me inspira porque ha sabido
+        usar su fama para hacer el bien y porque transmite mucha paz y sensibilidad en su
+        forma de actuar y de hablar.</p>
+
+    <br>
+    <img src="img/richard_gere.jpg" alt="Richard Gere" class="img1">
+    <img src="img/richard_gere2.jpeg" alt="Richard Gere" class="img2">
+    <img src="img/richard_gere3.jpg" alt="Richard Gere" class="img3">
+
+    <br><br>
+    <center><a href="https://www.imdb.com/es/name/nm0000152/" target="_blank">Más información (IMDb)</a></center>
+    <br><br>
+
+    <h3>Richard Gere, más activista que estrella de cine...</h3>
+
+    <iframe width="560" height="315"
+        src="https://youtube.com/embed/O0Pg50PwyVA?si=TmeU2jPMHBZSABM1"
+        frameborder="0" allowfullscreen></iframe>
+
+    <iframe width="560" height="315" class="iframe2"
+        src="https://youtube.com/embed/Ikw8U8gFaIA?si=RLMaZ7YtQyR40AKw"
+        frameborder="0" allowfullscreen></iframe>
+
+    <center>
+        <button onclick="window.location.href='inline.html'">¡Ver versión inline!</button>
+        <button onclick="window.location.href='interna.html'">¡Ver versión interna!</button>
+        <button onclick="window.location.href='externa.html'">¡Ver versión externa!</button>
+    </center>
+</body>
+
+</html>
