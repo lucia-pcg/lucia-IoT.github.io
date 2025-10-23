@@ -42,6 +42,17 @@ a:hover {
     color: black;
 }
 
+.superior {
+    float: right;
+    margin: 10px;
+    color: brown;
+    text-decoration: none;
+}
+
+.superior:hover {
+    color: black;
+}
+
 h3 {
     font-family: Verdana, Geneva, sans-serif;
     padding-left: 50px;
