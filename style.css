@@ -72,15 +72,16 @@ img:hover {
 
 a {
     font-family: "Times New Roman", serif;
-    text-align: right;
-    padding-left: 50px;
     color: red;
     text-decoration: none;
+    float: right;
+    margin: 10px;
 }
 
 a:hover {
     color: white;
 }
+
 
 
 
